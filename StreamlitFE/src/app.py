@@ -12,6 +12,15 @@ def navigate_to(page):
     st.session_state.page = page
 
 if __name__ == '__main__':
+    # Streamlit 상단 바와 메뉴 숨기기
+    hide_streamlit_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        header {visibility: hidden;}
+        footer {visibility: hidden;}
+        </style>
+        """
+    st.markdown(hide_streamlit_style, unsafe_allow_html=True)
     # 이미지 파일 경로 설정
     image_path = '../static/images/battleground1.png'
     # 배경 이미지 설정 함수 호출

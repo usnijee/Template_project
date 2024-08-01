@@ -55,7 +55,7 @@ def set_background(png_file):
         margin: 100px; /* 페이지 전체의 여백 조정 */
     }}
     .custom-container {{
-        padding-right: 50%; /* 양쪽에 20%의 패딩을 추가하여 간격을 확보 */
+        padding-right: 50%; /* 양쪽에 50%의 패딩을 추가하여 간격을 확보 */
         padding-left : 50%;
     }}
     </style>
